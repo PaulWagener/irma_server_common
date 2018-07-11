@@ -32,7 +32,7 @@ public class BaseConfiguration<T>  {
     public static BaseConfiguration instance;
 
     private static URI confPath;
-    private static String confDirName;
+    private static String confDirName = "irma_api_server";
 
     public static void load() {
         try {
